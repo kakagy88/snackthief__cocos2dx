@@ -1,0 +1,36 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": false,
+  "frameRate": 60,
+  "noCache": false,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d",
+    "cocostudio",
+    "gui",
+    "extensions",
+    "spine"
+  ],
+  "resourceDir": "res",
+  "jsList": [
+    "src/define.js",
+    "src/dialog/base-dialog.js",
+    "src/dialog/message-dialog.js",
+    "src/dialog/yes-no-dialog.js",
+    "src/resource.js",
+    "src/scene/base-scene.js",
+    "src/scene/title-scene.js",
+    "src/scene/difficulty-scene.js",
+    "src/scene/game-scene.js",
+    "src/scene/gameover-scene.js",
+    "src/scene/gameclear-scene.js",
+    "src/util/bluebird.min.js",
+    "src/util/network.js",
+    "src/util/scene.js",
+    "src/util/score.js",
+    "src/util/view.js"
+  ]
+}

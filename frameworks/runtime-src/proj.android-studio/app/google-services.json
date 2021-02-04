@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "134119329809",
+    "firebase_url": "https://cocoppa-magic.firebaseio.com",
+    "project_id": "cocoppa-magic",
+    "storage_bucket": "cocoppa-magic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134119329809:android:9f7e850a5dd43644",
+        "android_client_info": {
+          "package_name": "jp.united.app.snackthief"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134119329809-19h0ck814guvb3cnc9mdpkn2f174i792.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDORLVpuwb8D44aPQatvblm2hhAn2_gtLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

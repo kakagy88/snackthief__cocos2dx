@@ -1,0 +1,365 @@
+{
+  "ID": "9ba35b61-6771-447e-92a3-58dd418ec1e1",
+  "Version": "3.10.0.0",
+  "Name": "YesNoDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 111,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/ui/common/bg_overlay.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 27,
+            "Scale9OriginY": 21,
+            "Scale9Width": 28,
+            "Scale9Height": 24,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5282,
+              "Y": 0.7031
+            },
+            "LeftMargin": 268.0,
+            "RightMargin": 268.0,
+            "TopMargin": 95.0,
+            "BottomMargin": 95.0,
+            "Tag": 112,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 35,
+                "LabelText": "Title",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/slkscrb.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 293.5001,
+                  "Y": 396.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4892,
+                  "Y": 0.88
+                },
+                "PreSize": {
+                  "X": 0.9167,
+                  "Y": 0.1156
+                },
+                "LeftMargin": 18.5001,
+                "RightMargin": 31.4999,
+                "TopMargin": 28.0,
+                "BottomMargin": 370.0,
+                "Tag": 113,
+                "ActionTag": 690912491,
+                "Size": {
+                  "X": 550.0,
+                  "Y": 52.0
+                },
+                "Name": "labelTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "Message",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/slkscrb.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 300.0,
+                  "Y": 230.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5111
+                },
+                "PreSize": {
+                  "X": 0.8333,
+                  "Y": 0.5556
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 50.0,
+                "TopMargin": 95.0,
+                "BottomMargin": 105.0,
+                "Tag": 114,
+                "ActionTag": 900696668,
+                "Size": {
+                  "X": 500.0,
+                  "Y": 250.0
+                },
+                "Name": "labelMessage",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "Yes",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/slkscrb.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ui/common/btn_success_highlight.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ui/common/btn_success_highlight.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ui/common/btn_success.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 20,
+                "Scale9OriginY": 20,
+                "Scale9Width": 10,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 180.0,
+                  "Y": 65.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3,
+                  "Y": 0.1444
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 80.0,
+                "RightMargin": 320.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 40.0,
+                "Tag": 536,
+                "ActionTag": 1818244346,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "buttonYes",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "No",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/slkscrb.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ui/common/btn_danger_highlight.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ui/common/btn_danger_highlight.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ui/common/btn_danger.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 20,
+                "Scale9OriginY": 20,
+                "Scale9Width": 10,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 420.0,
+                  "Y": 65.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7,
+                  "Y": 0.1444
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 320.0,
+                "RightMargin": 80.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 40.0,
+                "Tag": 537,
+                "ActionTag": -2016865929,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "buttonNo",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1717977371,
+            "Size": {
+              "X": 600.0,
+              "Y": 450.0
+            },
+            "Name": "panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../font/slkscrb.ttf",
+        "../images/ui/common/bg_overlay.png",
+        "../images/ui/common/btn_danger.png",
+        "../images/ui/common/btn_danger_highlight.png",
+        "../images/ui/common/btn_success.png",
+        "../images/ui/common/btn_success_highlight.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

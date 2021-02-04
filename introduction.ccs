@@ -1,0 +1,106 @@
+<Solution>
+  <PropertyGroup Name="introduction" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="dialog">
+          <Project Name="Layer.csd" Type="Layer" />
+          <Project Name="MessageDialog.csd" Type="Layer" />
+          <Project Name="YesNoDialog.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="font">
+          <TTF Name="slkscrb.ttf" />
+        </Folder>
+        <Folder Name="images">
+          <Folder Name="game">
+            <Image Name="_boylose.png" />
+            <Image Name="_win.png" />
+            <Image Name="akikan.png" />
+            <Image Name="asiba_tori.png" />
+            <Image Name="asiba_tori1.png" />
+            <Image Name="asiba_tori2.png" />
+            <Image Name="backgroundObject.png" />
+            <Image Name="banana.png" />
+            <Image Name="banana_throwing.png" />
+            <Image Name="blewhuusen.png" />
+            <Image Name="boy.png" />
+            <Image Name="boyhit.png" />
+            <Image Name="easy.png" />
+            <Image Name="easy_pressed.png" />
+            <Image Name="gauge.png" />
+            <Image Name="gauge-bg.png" />
+            <Image Name="gensoku01.png" />
+            <Image Name="gensoku02.png" />
+            <Image Name="gensoku03.png" />
+            <Image Name="gensoku04.png" />
+            <Image Name="gensoku05.png" />
+            <Image Name="gensoku06.png" />
+            <Image Name="hard.png" />
+            <Image Name="hard_pressed.png" />
+            <Image Name="hit.png" />
+            <Image Name="icon_enemy.png" />
+            <Image Name="icon_me.png" />
+            <Image Name="icon_me_happy.png" />
+            <Image Name="icon_me_lose.png" />
+            <Image Name="jump1.png" />
+            <Image Name="jump2.png" />
+            <Image Name="jump3.png" />
+            <Image Name="jump4.png" />
+            <Image Name="jump5.png" />
+            <Image Name="jump6.png" />
+            <Image Name="kadan.png" />
+            <Image Name="kadanL.png" />
+            <Image Name="kadannall.png" />
+            <Image Name="kadanR.png" />
+            <Image Name="kanban.png" />
+            <Image Name="kiirohuusen.png" />
+            <Image Name="kumo.png" />
+            <Image Name="logo.png" />
+            <Image Name="lose1.png" />
+            <Image Name="lose2.png" />
+            <Image Name="redhuusen.png" />
+            <Image Name="run1.png" />
+            <Image Name="run2.png" />
+            <Image Name="run3.png" />
+            <Image Name="run4.png" />
+            <Image Name="run5.png" />
+            <Image Name="run6.png" />
+            <Image Name="sora.png" />
+            <Image Name="sorakumoyama.png" />
+            <Image Name="star.png" />
+            <Image Name="teki.png" />
+            <Image Name="winaruki01.png" />
+            <Image Name="winaruki02.png" />
+            <Image Name="winaruki03.png" />
+            <Image Name="winaruki04.png" />
+            <Image Name="zimen.png" />
+            <Image Name="zimen_x2.png" />
+            <Image Name="zimen_x2_tatemono.png" />
+          </Folder>
+          <Folder Name="ui">
+            <Folder Name="common">
+              <Image Name="bg_overlay.png" />
+              <Image Name="btn_back.png" />
+              <Image Name="btn_danger.png" />
+              <Image Name="btn_danger_highlight.png" />
+              <Image Name="btn_info.png" />
+              <Image Name="btn_info_highlight.png" />
+              <Image Name="btn_primary.png" />
+              <Image Name="btn_success.png" />
+              <Image Name="btn_success_highlight.png" />
+              <Image Name="btn_warning_highlight.png" />
+              <Image Name="dot_black.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="scene">
+          <Project Name="DifficultyScene.csd" Type="Scene" />
+          <Project Name="GameClearScene.csd" Type="Scene" />
+          <Project Name="GameOverScene.csd" Type="Scene" />
+          <Project Name="GameScene.csd" Type="Scene" />
+          <Project Name="TitleScene.csd" Type="Scene" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
